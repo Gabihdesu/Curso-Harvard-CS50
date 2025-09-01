@@ -18,11 +18,20 @@ LinkedIn: https://www.linkedin.com/in/alexcheherica
 DIO: https://www.dio.me/users/alexcheherica
 
 ## Módulos 
-Introduction, Concluído ✅
-Search, Concluído✅
-Knowledge, Concluído ✅
-Uncertainty, Concluído✅
-Optimization, Concluído✅
-Learning, Concluído✅
-Neural Networks, Concluído✅
-Language, Concluído ✅
+
+- Introduction, Concluído ✅
+
+- Search, Concluído✅
+
+- Knowledge, Concluído ✅
+
+- Uncertainty, Concluído✅
+
+- Optimization, Concluído✅
+
+- Learning, Concluído✅
+
+- Neural Networks, Concluído✅
+
+- Language, Concluído ✅
+
