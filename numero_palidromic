@@ -1,0 +1,15 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n = int(input())
+lista = list(map(int, input().split()))
+
+lista.append(n)
+condicao = False
+
+for i in lista:
+    if i < 0:
+        condicao = True
+    else:
+        if str(i) == str(i)[::-1]:
+            condicao = True 
+            
+print(condicao)

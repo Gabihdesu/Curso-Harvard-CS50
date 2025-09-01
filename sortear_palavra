@@ -1,0 +1,16 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+
+# minusculas na frente de maiuscula
+
+# maiusculas a frente dos digitos
+
+# digitos impares a frente dos pares
+
+# input 
+text = str(input())
+minusculas = sorted([c for c in text if c.islower()])
+maiusculas = sorted([c for c in text if c.isupper()])
+impares   = sorted([c for c in text if c.isdigit() and int(c) % 2 == 1])
+pares     = sorted([c for c in text if c.isdigit() and int(c) % 2 == 0])
+
+frase = ''.join(minusculas + maiusculas + impares + pares)

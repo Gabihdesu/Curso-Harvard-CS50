@@ -1,0 +1,24 @@
+if __name__ == '__main__':
+    python_students = []
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        
+        python_students.append([name, score])
+
+    notas = []
+    alunos_segundo_menores = []
+    for student in python_students:
+        notas.append(student[1])
+           
+    ordenadas = sorted(set(notas))  # ordenar do menor para o maior
+
+    segunda_menor = ordenadas[1]
+
+    for student in python_students:
+        if student[1] == segunda_menor:
+            alunos_segundo_menores.append(student[0])
+    
+    alunos_segundo_menores = sorted(alunos_segundo_menores)
+    for a in alunos_segundo_menores:
+        print(a)

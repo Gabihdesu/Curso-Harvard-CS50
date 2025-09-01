@@ -1,0 +1,22 @@
+if __name__ == '__main__':
+    n = int(input())
+    student_marks = {}
+    for _ in range(n):
+        name, *line = input().split()
+        scores = list(map(float, line))
+        student_marks[name] = scores
+    query_name = input()
+
+    def calcular_media(query_name):
+        soma_notas = 0
+        for i in student_marks[query_name]:
+            soma_notas += i
+        media = soma_notas/3
+
+        print(f'{media:.2f}')
+    
+    calcular_media(query_name)
+
+        
+        
+
